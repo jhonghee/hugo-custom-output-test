@@ -1,0 +1,17 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+DefaultContentLanguage = "en"
+canonifyurls = true
+metaDataFormat = "toml"
+theme = "hugo-bootstrap-premium"
+
+[mediaTypes]
+[mediaTypes."text/plain"]
+suffix = "properties"
+
+[outputFormats.eclssetup]
+mediaType = "text/plain"
+#baseName = "eclssetup"
+isPlainText = true
