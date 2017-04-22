@@ -1,8 +1,8 @@
 # hugo-custom-output-test
 
-http://localhost:1313/configuration/7_1/azuredev/app1/eclssetup/
+http://localhost:1313/configuration/7_1/azuredev/app1/eclssetup/index.properties
 
-or 
+or with "uglyurls = true"
 
 http://localhost:1313/configuration/7_1/azuredev/app1/eclssetup.properties
 
@@ -15,4 +15,4 @@ key3=value3
 key4=value4
 key5=value5
 ```
-as text/plain
+as text/properties

@@ -7,11 +7,13 @@ canonifyurls = true
 metaDataFormat = "toml"
 theme = "hugo-bootstrap-premium"
 
+uglyurls = true
+
 [mediaTypes]
-[mediaTypes."text/plain"]
+[mediaTypes."text/properties"]
 suffix = "properties"
 
 [outputFormats.eclssetup]
-mediaType = "text/plain"
+mediaType = "text/properties"
 #baseName = "eclssetup"
 isPlainText = true
