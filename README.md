@@ -6,7 +6,7 @@ or
 
 http://localhost:1313/configuration/7_1/azuredev/app1/eclssetup.properties
 
-would output
+should output
 
 ```
 key1=value1
