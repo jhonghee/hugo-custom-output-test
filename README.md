@@ -16,3 +16,12 @@ key4=value4
 key5=value5
 ```
 as text/properties
+
+W/o "uglyurls = true", you can set "baseName" to replace "index.properties" with "eclssetup.properties"
+
+```
+[outputFormats.eclssetup]
+mediaType = "text/properties"
+baseName = "eclssetup"
+isPlainText = true
+```
